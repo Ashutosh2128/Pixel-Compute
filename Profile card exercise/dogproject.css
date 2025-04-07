@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container {
+    height: 65vh;
+    width: 330px;
+    margin: auto;
+    background-color: rgb(219, 223, 226);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img-container {
+    height: 300px;
+    width: 330px;
+    border-radius: 47%;
+    position: absolute;
+    top: -110px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    border-radius: 47%;
+}
+
+.heading-container {
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.desc-container {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.follow-button, .remove-button {
+    padding: 8px 15px;
+    border-radius: 3px;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    font-weight: 600;
+}
+
+.follow-button:hover {
+    background-color: green;
+}
+
+.remove-button:hover {
+    background-color: rgb(219, 122, 61);
+}
